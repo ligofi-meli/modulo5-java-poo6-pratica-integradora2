@@ -13,7 +13,7 @@ public class CriarConta {
                 "11122233344",
                 1000000,
                 "executivo"
-                );
+        );
 
         fulano.imprimeDadosDoCliente("00000000011");
 

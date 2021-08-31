@@ -3,7 +3,7 @@ package gomes.filipe.Exercicio1.domain;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-public class Conta extends Banco{
+public class Conta extends Banco {
     String agencia;
     String contaCorrente;
     String nomeDoTitular;
@@ -110,7 +110,7 @@ public class Conta extends Banco{
     }
 
     public boolean transfere(double valor, Conta destino) {
-        if (this.saldo >= valor ) {
+        if (this.saldo >= valor) {
             this.saldo -= valor;
             destino.deposita(valor);
             return true;
